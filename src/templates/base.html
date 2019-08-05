@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>
+      This is about Django HTML Engine, and HTML inheritance, Other Pages will
+      inheritant this Title
+    </title>
+  </head>
+  <body>
+    {% include "nav_bar.html" %}
+
+
+    {% block content %}
+    Whatever between this two curly bracket, replace me 
+    {% endblock %}
+
+    {% block another_content %}
+    ??
+    {% endblock %}
+
+  </body>
+</html>
